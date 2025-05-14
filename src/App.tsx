@@ -8,6 +8,7 @@ import Footer from './components/Footer'
 import Header from './components/Header'
 import Projects from './components/Projects'
 import Result from './components/Result'
+import ScrollToTopButton from './components/ScrollToTopButton'
 import Team from './components/Team'
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Blog />
       <Contact />
       <Footer />
+      <ScrollToTopButton />
     </div>
   )
 }
