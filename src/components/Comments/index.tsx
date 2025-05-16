@@ -71,7 +71,7 @@ const Comments = () => {
           viewport={{ once: true, margin: '-100px' }}
           variants={containerVariants}
         >
-          {commentsArray.map((item, index) => (
+          {commentsArray.map((item) => (
             <motion.div
               key={item.name}
               className='flex w-full flex-col justify-between px-9 py-9 bg-white h-[350px] sm:h-[250px] lg:h-[400px] xl:h-[300px] lg:gap-0 gap-10'
